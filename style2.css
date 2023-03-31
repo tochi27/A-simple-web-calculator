@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color: #e0c2ef;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 15rem 1fr;
+    margin: 15rem auto;
+    /* background-color: navy; */
+    width: 25rem;
+    height: 40rem;
+    border-radius: 2rem;
+}
+
+.box1{
+    background-color: #002b4c;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: inherit;
+}
+
+.box1 p{
+    color: white;
+    margin-left: 20rem;
+    margin-top: 8.5rem;
+    font-size: 5rem;
+    background-color: inherit;
+}
+
+.box2{
+    background-color: #011d36;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.box2 td{
+    background-color: #011d36;
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 2.3rem;
+    border: 0.0625rem solid black;
+    border-collapse: collapse;
+}
+
+.box2 td:hover{
+    background-color: white;
+    color: orangered;
+}
+
+.box2 .green{
+    color: green;
+}
+
+.box2 .green:hover{
+    background-color: cadetblue;
+    color: lime;
+}
+
+.box2 .grey{
+    color: grey;
+}
+
+.box2 .grey:hover{
+    background-color: yellow;
+    color: darkblue;
+}
+
+.box2 .curve{
+    border-bottom-left-radius: 2rem;
+}
+
+.box2 .equal{
+    border-bottom-right-radius: 2rem;
+}
